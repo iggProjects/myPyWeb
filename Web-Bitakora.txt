@@ -7,5 +7,14 @@ links
 
 define "tree structure"
 
+install venv in nazareth computer, chapter one
+    -https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world
+        
+        - python -m venv 0_venv
+        .\0_venv\Scripts\activate
+        ??? - pip install flask
+        ??? - import flask
+
+
 Continue in https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-iii-web-forms
     - Use login form
