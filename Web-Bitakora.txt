@@ -6,10 +6,5 @@ links
     https://www.digitalocean.com/community/tutorials/how-to-make-a-web-application-using-flask-in-python-3
 
 
-Install flask
-
-
-
-home 
-
-
+Continue in https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-iii-web-forms
+    - Use login form

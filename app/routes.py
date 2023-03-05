@@ -1,8 +1,22 @@
 # from 
 
+from flask import render_template
 from app import app
 
 @app.route('/')
 @app.route('/index')
 def index():
-    return "<center><h1><b>---------KAIXO TEAM--------</b></h1></center>"
+
+    user = {'username': 'IGG'}
+    posts = [
+        {
+            'author': {'username': 'John'},
+            'body': 'Beautiful day in Portland!'
+        },
+        {
+            'author': {'username': 'Susan'},
+            'body': 'The Avengers movie was so cool!'
+        }
+    ]
+
+    return render_template('index.html', title='myPyWeb', user=user, posts=posts)
