@@ -1,8 +1,12 @@
 {% extends "base.html" %}
 
 {% block content %}
-    <div style="text-align: center;"><h1>Hi, {{ user.username }}!</h1></div>
+    <div style="text-align: center;">
+        <h1>Kaixo, {{ user.username }}!</h1>
+    </div>
     {% for post in posts %}
-    <div style="text-align: center;"><p>{{ post.author.username }} says: <b>{{ post.body }}</b></p></div>
+    <div style="text-align: center;">
+        <p>{{ post.author.username }} says: <b>{{ post.body }}</b></p>
+    </div>
     {% endfor %}
 {% endblock %}

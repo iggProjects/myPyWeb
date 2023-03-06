@@ -8,9 +8,20 @@
       {% endif %}
     </head>
     <body>
-        <div style="margin-left: 10%;margin-right: 10%; background-color: gray;"><a href="/index">Home</a></div>
-        <hr>
-        <div style="text-align: center; color:blue">
+        <div style=" padding:20px; height:30px; text-align:center; background-color: rgb(3, 56, 1);">
+          <a href="{{ url_for('index') }}" style="margin:10px;color:white; font-size: 20px;">Home</a>
+          <a href="{{ url_for('login') }}" style="margin:10px;color:white; font-size: 20px;">Login</a>
+        </div>
+       
+        {% with messages = get_flashed_messages() %}
+        {% if messages %}
+        <ul>
+            {% for message in messages %}
+            <li>{{ message }}</li>
+            {% endfor %}
+        </ul>
+        {% endif %}
+        {% endwith %}   
         {% block content %}{% endblock %}
         </div>
     </body>
