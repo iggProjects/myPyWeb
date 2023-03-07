@@ -17,4 +17,4 @@ install venv in nazareth computer, chapter one
 
 
 Continue in https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-iii-web-forms
-    - Use login form
+    - add blog post (chapter 4, at end)
