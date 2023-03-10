@@ -1,5 +1,8 @@
 FLASK
 
+miguelgrinberg  making a blog
+    https://github.com/miguelgrinberg/microblog
+
 links
     https://www.tutorialspoint.com/flask/flask_variable_rules.htm
     https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world
@@ -16,5 +19,5 @@ install venv in nazareth computer, chapter one
         ??? - import flask
 
 
-Continue in https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-iii-web-forms
+Continue in https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-iv-database
     - add blog post (chapter 4, at end)
