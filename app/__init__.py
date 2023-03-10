@@ -5,7 +5,6 @@ from config import Config
 from flask_sqlalchemy import SQLAlchemy
 from flask_migrate import Migrate
 
-
 app = Flask(__name__)
 app.config.from_object(Config)
 
@@ -15,3 +14,6 @@ migrate = Migrate(app, db)
 
 # add models (classes) for db 
 from app import routes, models
+
+# chapter 5
+from flask_login import LoginManager
